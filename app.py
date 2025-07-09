@@ -174,6 +174,8 @@ def dashboard():
 # ----------------------
 # Run server
 # ----------------------
+train_model()  # Train the model on startup
+
 if __name__ == '__main__':
-    train_model()
+    
     app.run(debug=True)
