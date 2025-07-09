@@ -57,13 +57,55 @@ A visually engaging, AI-powered web application that predicts the risk level of 
 
 ---
 
-## 🧪 Sample Test Data
+# 🚀 AI Project Risk Predictor
 
-Upload sample CSVs like `sample_ai_project_data.csv` to test risk classification. File format:
+A visually interactive and intelligent web app that leverages AI to predict project risks using historical project data. Built with Flask, scikit-learn, and Chart.js to empower managers with smarter decision-making.
 
-| project\_name | complexity | duration | team\_size | cost | ... |
-| ------------- | ---------- | -------- | ---------- | ---- | --- |
-| AI App Dev    | High       | 120      | 5          | 150K | ... |
+---
+
+## 🧠 Features
+
+- 📊 Upload CSV and view insights instantly  
+- 🎯 Predict potential risks using Random Forest  
+- 📈 Visualized analytics with interactive charts  
+- 💬 AI-driven suggestions using Gemini API  
+- 🔐 Clean & modular Flask architecture
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** HTML, TailwindCSS, JavaScript  
+- **Backend:** Python (Flask), scikit-learn, Gemini API  
+- **Visualization:** Chart.js  
+- **Model:** Random Forest Classifier  
+
+---
+
+## 📸 Screenshots
+
+| Dashboard | Dashboard (Alt) |
+|-----------|------------------|
+| ![Dashboard](static/dashboard.png.png) | ![Alt Dashboard](static/dashboard2.png.png) |
+
+| Upload Tab | Result Page |
+|------------|-------------|
+| ![Upload](static/charts.png.png) | ![Results](static/result.png.png) |
+
+| Insights Tab | Charts |
+|--------------|--------|
+| ![Insights](static/insights.png.png) | ![Charts](static/charts2.png.png) |
+
+---
+
+## ⚙️ How to Run Locally
+
+```bash
+git clone https://github.com/falcon78277/ai-project-risk-predictor.git
+cd ai-project-risk-predictor
+pip install -r requirements.txt
+python app.py
+
 
 ---
 
