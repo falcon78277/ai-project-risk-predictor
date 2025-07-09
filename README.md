@@ -82,21 +82,19 @@ A visually interactive and intelligent web app that leverages AI to predict proj
 
 ---
 
-## 📸 Screenshots
 
-## 📸 Screenshots
 
-| Dashboard | Dashboard 2 |
-|-----------|-------------|
-| ![Dashboard](static/dashboard.png) | ![Dashboard 2](static/dashboard2.png) |
+## 📷 Screenshots
 
-| Charts | Charts 2 |
-|--------|----------|
-| ![Charts](static/charts.png) | ![Charts 2](static/charts2.png) |
+### 🔹 Upload Page
+![Upload Screenshot](https://raw.githubusercontent.com/falcon78277/ai-project-risk-predictor/main/static/dashboard.png)
 
-| Insights | Result Page |
-|----------|-------------|
-| ![Insights](static/insights.png) | ![Result](static/result.png) |
+### 🔹 Dashboard View
+![Dashboard Screenshot](https://raw.githubusercontent.com/falcon78277/ai-project-risk-predictor/main/static/charts.png)
+
+### 🔹 Results Section
+![Results Screenshot](https://raw.githubusercontent.com/falcon78277/ai-project-risk-predictor/main/static/result.png)
+
 
 ---
 
