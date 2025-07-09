@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            background-color: #1e1e1e;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 255, 217, 0.1);
+        }
+
+        h1 {
+            font-weight: bold;
+            color: #00ffd9;
+        }
+
+        .table thead th {
+            background-color: #2b2b2b;
+            color: #00ffd9;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        .table tbody td {
+            vertical-align: middle;
+        }
+
+        .table tbody tr:hover {
+            background-color: #2a2a2a;
+        }
+
+        .btn-custom {
+            background-color: #00ffd9;
+            color: #000;
+            font-weight: 600;
+            border-radius: 8px;
+            border: none;
+            padding: 10px 24px;
+            transition: 0.3s ease;
+            margin: 10px 8px;
+        }
+
+        .btn-custom:hover {
+            background-color: transparent;
+            color: #00ffd9;
+            border: 2px solid #00ffd9;
+        }
+
+        .badge-risk {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .badge-low {
+            background-color: #1f8b4c;
+            color: white;
+        }
+
+        .badge-high {
+            background-color: #d9534f;
+            color: white;
+        }
+
+        .recommendation-cell {
+            white-space: pre-wrap;
+            max-width: 300px;
+        }
+
+        .btn-wrapper {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container text-center mt-5">
+    <h1 class="mb-4">📊 Prediction Results</h1>
+
+    <div class="table-container mb-5">
+        <table class="table table-dark table-bordered align-middle">
+            <thead>
+                <tr>
+                    {% for col in titles %}
+                        <th>{{ col.replace('_', ' ').title() }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                
+                {% for row in tables[0].split('<tr')[2:] %}
+                    <tr {{ row | safe }}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="btn-wrapper">
+        <a href="{{ download_link }}" class="btn btn-custom" download>⬇ Download Results CSV</a>
+        <a href="/dashboard" class="btn btn-custom">📈 View Dashboard</a>
+
+        <a href="/" class="btn btn-custom">🔄 Upload Another CSV</a>
+    </div>
+</div>
+
+</body>
+</html>
