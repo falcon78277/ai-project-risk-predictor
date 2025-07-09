@@ -1,0 +1,11 @@
+project_id,employee_id,status,deadline,progress,workload,hours_logged,sentiment_score
+101,1001,On Track,2025-07-20,75,High,38,0.4
+101,1002,Delayed,2025-07-20,55,Medium,30,-0.3
+102,1003,At Risk,2025-08-10,60,High,42,-0.1
+102,1004,On Track,2025-08-10,80,Low,36,0.6
+103,1005,Delayed,2025-07-25,50,High,45,-0.4
+103,1006,On Track,2025-07-25,85,Medium,40,0.3
+104,1007,At Risk,2025-07-30,58,High,37,-0.2
+104,1008,On Track,2025-07-30,78,Medium,39,0.5
+105,1009,Delayed,2025-08-01,45,High,46,-0.5
+105,1010,On Track,2025-08-01,88,Low,35,0.7
