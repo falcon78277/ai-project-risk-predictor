@@ -84,17 +84,19 @@ A visually interactive and intelligent web app that leverages AI to predict proj
 
 ## 📸 Screenshots
 
-| Dashboard | Dashboard (Alt) |
-|-----------|------------------|
-| ![Dashboard](static/dashboard.png.png) | ![Alt Dashboard](static/dashboard2.png.png) |
+## 📸 Screenshots
 
-| Upload Tab | Result Page |
-|------------|-------------|
-| ![Upload](static/charts.png.png) | ![Results](static/result.png.png) |
+| Dashboard | Dashboard 2 |
+|-----------|-------------|
+| ![Dashboard](static/dashboard.png) | ![Dashboard 2](static/dashboard2.png) |
 
-| Insights Tab | Charts |
-|--------------|--------|
-| ![Insights](static/insights.png.png) | ![Charts](static/charts2.png.png) |
+| Charts | Charts 2 |
+|--------|----------|
+| ![Charts](static/charts.png) | ![Charts 2](static/charts2.png) |
+
+| Insights | Result Page |
+|----------|-------------|
+| ![Insights](static/insights.png) | ![Result](static/result.png) |
 
 ---
 
