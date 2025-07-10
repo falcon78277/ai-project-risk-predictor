@@ -8,6 +8,8 @@ A visually engaging, AI-powered web application that predicts the risk level of 
 
 * 📂 Upload project datasets (CSV)
 * 📊 Predict risk category (Low / High)
+* If the project is at risk it will show 1 other wise 0 and also its give recommendations and insights for project that are on risk
+ 
 * 📈 Interactive dashboards for:
 
   * Risk Level Distribution
