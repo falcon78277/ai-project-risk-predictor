@@ -78,7 +78,7 @@ A visually interactive and intelligent web app that leverages AI to predict proj
 ## 🛠 Tech Stack
 
 - **Frontend:** HTML, TailwindCSS, JavaScript  
-- **Backend:** Python (Flask), scikit-learn, Gemini API  
+- **Backend:** Python (Flask), scikit-learn, Gemini API ,Langchain 
 - **Visualization:** Chart.js  
 - **Model:** Random Forest Classifier  
 
